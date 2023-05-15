@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0px 0px;
+    
+}
+
+.header {
+    background-image:url(bg.jpg) ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.header-line {
+    position: absolute;
+    width: 404px;
+    height: 23px;
+    left: 355px;
+    top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    color: #FFFCDA ;
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    
+    margin-right: 7px;
+
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    color: FFFCDA;
+    color: rgba(255, 252, 218, 0.21);
+}
+
+.button {
+    color: #FFFCDA ;
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 23px;
+
+    position: absolute;
+    width: 366px;
+    height: 64px;
+    left: 348px;
+    top: 620px;
+    text-shadow: 4px 7px 9px rgba(0, 0, 0, 0.25);
+
+    transition: color 0.3s linear;
+}
+
+.button:hover {
+    color: FFFCDA;
+    color: rgba(255, 252, 218, 0.48);
+}
+
+.header-title {
+    position: absolute;
+    width: 810px;
+    height: 810px;
+    left: 36%;
+    top: 770px;
+    
+    font-style: normal;
+    font-weight: 800;
+    font-size: 68px;
+    line-height: 74px;
+    letter-spacing: -0.12em;
+    
+    color: #C1B95A;
+    
+    text-shadow: 6px 11px 9px rgba(0, 0, 0, 0.25);
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+    background-color: #B4A139;
+}
+.card {
+    width: 284.36px;
+    margin-right: 60px;
+    margin-left: 100px;
+    margin-top: 180px;
+}
+.card-image {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button1 {
+    position: absolute;
+    width: 405px;
+    height: 70px;
+    left: 560px;
+    top: 1400px;
+    
+    transition: color 0.3s linear;
+
+    filter: drop-shadow(6px 11px 9px rgba(0, 0, 0, 0.25));
+}
+.btn1 {
+    background-color: #B4A139;
+    height: 25vh;
+    background-size:cover;
+}
+.button1:hover {
+    color: FFFCDA;
+    color: rgba(255, 252, 218, 0.48);
+}
+
+.wight-bloc {
+    background-color: #FFFCDA;
+    height: 80vh;
+    background-size:cover;
+}
+.work {
+    position: absolute;
+    width: 405px;
+    height: 70px;
+    left: 190px;
+    top: 1600px;
+}
+
+.green-bloc {
+    background-color: #B4A139;
+    height: 115vh;
+    background-size:cover;
+}
+.reviews {
+    position: absolute;
+    width: 405px;
+    height: 70px;
+    left: 110px;
+    top: 2200px;
+}
+
+.button2 {
+    position: absolute;
+    width: 350px;
+    height: 65px;
+    left: 560px;
+    top: 2760px;
+}
+
